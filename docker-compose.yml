@@ -1,0 +1,7 @@
+user-registration:
+  image: tomcat
+  ports:
+    - "8000:8080"
+  volumes:
+     - ./dist/user-registration.war:/usr/local/tomcat/webapps/user-registration.war
+	 
